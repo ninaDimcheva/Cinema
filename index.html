@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="container">
+    <div id="firstRow">
+        <h1 id="title">MOVIES</h1>
+        <nav id="header">
+            <ul id="navigation">
+                <li><u>Home</u></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#mostPopular">Most popular</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <div id="select">
+            <ul>
+                <li><u>Home</u></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#mostPopular">Most popular</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            </div>
+            <!--Make this work-->
+            <!--<ul id="be-selected" tabindex="0">-->
+            <!--<li>Movies</li>-->
+            <!--<li>Cinema</li>-->
+            <!--<li>Actors</li>-->
+            <!--<li>Actresses</li>-->
+            <!--</ul>-->
+        </nav>
+    </div>
+    <div id="secondRow">
+        <nav id="secondRowTitles">
+            <ul>
+                <li>CINEMA MOVIES</li>
+                <li>TV SERIES</li>
+                <li>CARTOONS</li>
+                <li>ANIME</li>
+                <li>NEW MOVIES</li>
+                <li>HD MOVIES</li>
+            </ul>
+        </nav>
+    </div>
+    <div id="bigPicture" onmouseover="hide()">
+        <img id="sponge" src="pictures/sponge.jpg">
+        <img id="max" src="pictures/maxresdefault.jpg">
+        <img id="mainPicture" src="pictures/hq720.jpg">
+        <h2>Ex Machina</h2>
+        <pre>&laquo;To erase the line between man and machine is to obscure the line
+                                 between men and gods&raquo;</pre>
+        <div id="img-overlay">
+            <button id="learn" name="learn" value="LEARN MORE" onclick="location.href='http://www.imdb.com/title/tt0470752/'">LEARN MORE</button>
+            <button id="watch" name="watch" value="WATCH TRAILER" onclick="location.href='https://www.youtube.com/watch?v=PI8XBKb6DQk'">WATCH TRAILER</button>
+        </div>
+    </div>
+    <div id="secondPage">
+        <h1><a name="about">Watch your favorite movies online</a></h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid deserunt distinctio, earum
+            error facere ipsam itaque,<br/>laboriosam laborum laudantium nam nisi non pariatur rem similique
+            tenetur vel vero? Commodi, cupiditate.</h2>
+        <ul>
+            <li><span>Action</span></li>
+            <li><span>Adventure</span></li>
+            <li><span>Animation</span></li>
+            <li><span>Biography</span></li>
+            <li><span>Comedy</span></li>
+            <li><span>Crime</span></li>
+            <li><span>Documentary</span></li>
+        </ul>
+        <ul>
+            <li><span>Drama</span></li>
+            <li><span>Family</span></li>
+            <li><span>Fantasy</span></li>
+            <li><span>Game-show</span></li>
+            <li><span>History</span></li>
+            <li><span>Horror</span></li>
+            <li><span>Kids</span></li>
+        </ul>
+        <ul>
+            <li><span>Music</span></li>
+            <li><span>Musical</span></li>
+            <li><span>Mystery</span></li>
+            <li><span>News</span></li>
+            <li><span>Romance</span></li>
+            <li><span>Sci-Fi</span></li>
+            <li><span>Short</span></li>
+        </ul>
+        <ul>
+            <li><span>Sport</span></li>
+            <li><span>Thriller</span></li>
+            <li><span>War</span></li>
+            <li><span>Western</span></li>
+        </ul>
+        <div id="secondPageButton">
+            <button id="search" name="learn" value="LEARN MORE">SEARCH</button>
+        </div>
+    </div>
+    <div id="thirdPage">
+        <h1><a name="mostPopular">More movies</a></h1>
+        <div id="firstRowImage">
+            <div class="column">
+                <img src="pictures/helmet.jpg" alt="Woman with helmet">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="pictures/black-man-eating-a-banana.jpg" alt="Man with banana">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+            <div class="column">
+                <img src="pictures/darkshapes.jpg" alt="Dark shapes">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+            <div class="column">
+                <img src="pictures/depositphotos_36552933-stock-photo-woman-jump-over-canyon.jpg" alt="Woman in a clif">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+        </div>
+        <div id="secondRowImage">
+            <div class="column">
+                <img src="pictures/rock-climbing-wallpaper.jpg" alt="Climbing man">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+            <div class="column">
+                <img src="pictures/swimming%20girl.jpg" alt="Swimming baby girl">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+            <div class="column">
+                <img src="pictures/man%20with%20big%20beard.jpg" alt="Man with big beard">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+            <div class="column">
+                <img src="pictures/king.jpg" alt="King">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+        </div>
+        <div id="thirdRowImage">
+            <div class="column">
+                <img src="pictures/jumping%20man.jpg" alt="Jumping man">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+            <div class="column">
+                <img src="pictures/helmer.jpg" alt="Helmet">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+            <div class="column">
+                <img src="pictures/palne.jpg" alt="Air-plane">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+            <div class="column">
+                <img src="pictures/EverestfromKalarPatarcrop.JPG" alt="Mountain">
+                <div class="name">
+                    <h4>Cum stoque penat</h4>
+                    <h5>2015</h5>
+                </div>
+            </div>
+        </div>
+        <div id="thirdPageButton">
+            <button id="viewMore" name="View more" value="VIEW MORE">VIEW MORE</button>
+        </div>
+    </div>
+    <div id="fourthPage">
+        <h1><a name="news">Testimonials</a></h1>
+        <div id="fourthPageImage">
+            <img src="pictures/man%20with%20towel.jpg" alt="Man with towel">
+            <div id="fourthPageName">
+                <h4><b>James B.</b></h4>
+            <h5><i>Movie fan</i></h5>
+            </div>
+        </div>
+        <h2>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid deserunt distinctio, earum
+            error facere ipsam itaque,laboriosam laborum laudantium nam nisi non pariatur rem similique
+            tenetur vel vero? Commodi, cupiditate."</h2>
+    </div>
+    <div id="fifthPage">
+        <h1><a name="contacts">Mail us</a></h1>
+        <form action="information.php" method="post">
+            <input type="text"  placeholder="Your Name" name="firstName" id="firstName"size="50" >
+            <input type="email" placeholder="Your Email" name="email" id="email" size="50">
+            <input type="text" placeholder="Your Message" name="message" id="message" size="107">
+        </form>
+        <div id="fifthPageButton">
+            <button id="send" name="send" value="send">SEND</button>
+        </div>
+    </div>
+    <div id="map" style="width: 1400px; height: 870px; background-color: grey">
+    </div>
+    <script>
+        function initMap() {
+            var uluru = {lat: -25.363, lng: 131.044};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArMNPC0aCgv2EO1IK--c-M-fqrPb4OFHE&callback=initMap">
+    </script>
+    <footer>
+        <h3>Movies &#169; 2015 Privacy Policy</h3>
+        <h3 style="color: white">Questions?Call Us Toll Free: (012) 123-456-7890</h3>
+        <a id="google" href="https://www.google.bg/"></a>
+        <a id="twitter" href="https://twitter.com/login?lang=bg"></a>
+        <a id="facebook" href="https://www.facebook.com/"></a>
+        <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+        <script type="text/javascript" src="dinamic.js"></script>
+    </footer>
+</div>
+</body>
+</html>
